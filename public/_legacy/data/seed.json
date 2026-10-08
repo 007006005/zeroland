@@ -1,0 +1,299 @@
+{
+ "shop_items": [
+  {
+   "id": "skin_neon_blue",
+   "type": "ship_skin",
+   "name": "Cobalt Pulse",
+   "price": 100,
+   "icon": "🔷",
+   "description": "Scocca cianotica con scarica di fotoni a frequenza quantistica."
+  },
+  {
+   "id": "skin_crimson",
+   "type": "ship_skin",
+   "name": "Crimson Fury",
+   "price": 300,
+   "icon": "🔴",
+   "description": "Armatura in lega di titanio rosso magma ad alta resistenza."
+  },
+  {
+   "id": "skin_gold",
+   "type": "ship_skin",
+   "name": "Cyber Gold",
+   "price": 750,
+   "icon": "👑",
+   "description": "Rivestimento aureo nanotecnologico per veri campioni d'arcade."
+  },
+  {
+   "id": "trail_matrix",
+   "type": "trail",
+   "name": "Matrix Rain",
+   "price": 150,
+   "icon": "❇️",
+   "description": "Scia a codici binari verdi luminescenti ad ogni manovra."
+  },
+  {
+   "id": "trail_plasma",
+   "type": "trail",
+   "name": "Hyper Plasma",
+   "price": 400,
+   "icon": "⚡",
+   "description": "Rilascio continuo di particelle ionizzate ad altissima energia."
+  },
+  {
+   "id": "shield_overclock",
+   "type": "powerup_boost",
+   "name": "Scudo Overclock +1",
+   "price": 250,
+   "icon": "🛡️",
+   "description": "Inizia ogni partita con uno scudo extra attivo fin dal primo secondo."
+  },
+  {
+   "id": "laser_burst",
+   "type": "powerup_boost",
+   "name": "Doppio Blaster Start",
+   "price": 350,
+   "icon": "🔫",
+   "description": "Inizia la battaglia nello spazio con cannone doppio abilitato."
+  },
+  {
+   "id": "zero_skin_neon",
+   "type": "ship_skin",
+   "name": "ZeroAgar: Cyber Matrix",
+   "price": 200,
+   "icon": "🦠",
+   "description": "Skin neon ciano luminescente per la tua cella in ZeroAgar Cyber Arena."
+  },
+  {
+   "id": "zero_skin_dragon",
+   "type": "ship_skin",
+   "name": "ZeroAgar: Crimson Dragon",
+   "price": 450,
+   "icon": "🐉",
+   "description": "Skin drago cremisi con contorno fluorescente da predatore d'arena."
+  },
+  {
+   "id": "zero_skin_void",
+   "type": "ship_skin",
+   "name": "ZeroAgar: Quantum Void",
+   "price": 600,
+   "icon": "🌌",
+   "description": "Buco nero quantistico che pulsa ad ogni cella divorata."
+  },
+  {
+   "id": "zero_clan_badge",
+   "type": "powerup_boost",
+   "name": "Badge Clan VIP [APEX]",
+   "price": 500,
+   "icon": "👑",
+   "description": "Abilita il prefisso clan dorato VIP e ottieni il +15% di ZeroCoins."
+  }
+ ],
+ "achievements": [
+  {
+   "id": "first_blood",
+   "title": "Primo Impatto",
+   "description": "Distruggi la tua prima minaccia nemica nello spazio o nei giochi arcade.",
+   "reward_coins": 50,
+   "reward_xp": 100,
+   "icon": "🎯"
+  },
+  {
+   "id": "zero_apex_predator",
+   "title": "Apex Predator",
+   "description": "Divora almeno 5 bot o rivali in una singola sessione di ZeroAgar.",
+   "reward_coins": 200,
+   "reward_xp": 500,
+   "icon": "🦠"
+  },
+  {
+   "id": "zero_titan_arena",
+   "title": "Titano dell'Arena",
+   "description": "Raggiungi oltre 1.500 di Massa in ZeroAgar Cyber Arena.",
+   "reward_coins": 350,
+   "reward_xp": 800,
+   "icon": "⚡"
+  },
+  {
+   "id": "zero_split_master",
+   "title": "Maestro dello Split",
+   "description": "Esegui una divisione quadrupla in ZeroAgar senza farti divorare.",
+   "reward_coins": 150,
+   "reward_xp": 300,
+   "icon": "🧬"
+  },
+  {
+   "id": "coin_collector",
+   "title": "Cacciatore di Monete",
+   "description": "Raccogli un totale di oltre 200 monete durante le tue partite.",
+   "reward_coins": 100,
+   "reward_xp": 250,
+   "icon": "🪙"
+  },
+  {
+   "id": "boss_hunter",
+   "title": "Sterminatore di Boss",
+   "description": "Abbatti un boss galattico di fine livello.",
+   "reward_coins": 250,
+   "reward_xp": 600,
+   "icon": "👾"
+  },
+  {
+   "id": "speed_demon",
+   "title": "Demone della Velocità",
+   "description": "Raggiungi una combo 10x senza subire danni in Cyber Runner.",
+   "reward_coins": 150,
+   "reward_xp": 350,
+   "icon": "⚡"
+  },
+  {
+   "id": "master_survivor",
+   "title": "Sopravvissuto Leggendario",
+   "description": "Supera i 20.000 punti in una singola sessione arcade.",
+   "reward_coins": 500,
+   "reward_xp": 1000,
+   "icon": "🏆"
+  },
+  {
+   "id": "shopaholic",
+   "title": "Mercante Stellare",
+   "description": "Acquista almeno 2 oggetti o personalizzazioni dal negozio.",
+   "reward_coins": 120,
+   "reward_xp": 300,
+   "icon": "🛒"
+  },
+  {
+   "id": "streak_3_days",
+   "title": "Serie di Fuoco",
+   "description": "Visita l'arcade per 3 giorni consecutivi.",
+   "reward_coins": 300,
+   "reward_xp": 400,
+   "icon": "🔥"
+  },
+  {
+   "id": "streak_7_days",
+   "title": "Devozione Arcade",
+   "description": "Mantieni una serie ininterrotta di 7 giorni consecutivi nell'arcade.",
+   "reward_coins": 1000,
+   "reward_xp": 1200,
+   "icon": "👑"
+  }
+ ],
+ "daily_challenges": [
+  {
+   "id": "dc_1",
+   "title": "Sterminio Droni",
+   "task": "Elimina 20 droni alieni in Space Defender",
+   "target": 20,
+   "reward_coins": 80
+  },
+  {
+   "id": "dc_2",
+   "title": "Corsa Iperuranica",
+   "task": "Corri per oltre 1500 metri in Cyber Runner",
+   "target": 1500,
+   "reward_coins": 100
+  },
+  {
+   "id": "dc_3",
+   "title": "Combo Distruttrice",
+   "task": "Distruggi 30 blocchi senza perdere la palla in Neon Breaker",
+   "target": 30,
+   "reward_coins": 120
+  }
+ ],
+ "leaderboards": {
+  "space_defender": [
+   {
+    "username": "CyberKnight",
+    "score": 34800,
+    "date": "2026-09-29",
+    "avatar": "⚡"
+   },
+   {
+    "username": "PixelValkyrie",
+    "score": 26400,
+    "date": "2026-09-28",
+    "avatar": "🚀"
+   },
+   {
+    "username": "RetroPlayer",
+    "score": 12400,
+    "date": "2026-09-30",
+    "avatar": "👾"
+   },
+   {
+    "username": "VaporWave99",
+    "score": 9850,
+    "date": "2026-09-27",
+    "avatar": "🕹️"
+   }
+  ],
+  "cyber_runner": [
+   {
+    "username": "SpeedyFox",
+    "score": 14200,
+    "date": "2026-09-28",
+    "avatar": "🦊"
+   },
+   {
+    "username": "CyberKnight",
+    "score": 11200,
+    "date": "2026-09-29",
+    "avatar": "⚡"
+   },
+   {
+    "username": "RetroPlayer",
+    "score": 4820,
+    "date": "2026-09-30",
+    "avatar": "👾"
+   }
+  ],
+  "neon_breaker": [
+   {
+    "username": "CyberKnight",
+    "score": 18900,
+    "date": "2026-09-29",
+    "avatar": "⚡"
+   },
+   {
+    "username": "NeonGhost",
+    "score": 15400,
+    "date": "2026-09-25",
+    "avatar": "👻"
+   },
+   {
+    "username": "RetroPlayer",
+    "score": 6500,
+    "date": "2026-09-30",
+    "avatar": "👾"
+   }
+  ],
+  "zero_agar": [
+   {
+    "username": "ApexPredator",
+    "score": 38400,
+    "date": "2026-09-30",
+    "avatar": "👑"
+   },
+   {
+    "username": "master",
+    "score": 25000,
+    "date": "2026-09-30",
+    "avatar": "🦠"
+   },
+   {
+    "username": "CyberKnight",
+    "score": 18450,
+    "date": "2026-09-29",
+    "avatar": "⚡"
+   },
+   {
+    "username": "RetroPlayer",
+    "score": 9200,
+    "date": "2026-09-30",
+    "avatar": "👾"
+   }
+  ]
+ }
+}

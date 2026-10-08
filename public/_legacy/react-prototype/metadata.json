@@ -1,0 +1,6 @@
+{
+  "name": "Retro Arcade & Cloud Sync Portal",
+  "description": "Piattaforma arcade retro con sincronizzazione cloud, statistiche giocatore, obiettivi, negozio, classifiche e file index.php con nuove funzioni avanzate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

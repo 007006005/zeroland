@@ -1,0 +1,283 @@
+/* ====================================================================
+   RETRO ARCADE & CLOUD SYNC PORTAL - RESPONSIVE & ADMIN OVERLAY CSS
+   ==================================================================== */
+
+:root {
+  --bg-primary: #0a0a12;
+  --bg-secondary: #121225;
+  --bg-card: rgba(22, 22, 45, 0.85);
+  --cyan-neon: #00f0ff;
+  --pink-neon: #ff007f;
+  --amber-neon: #ffb700;
+  --green-neon: #39ff14;
+  --text-main: #e0e6ed;
+  --text-muted: #8a99ad;
+  --border-neon: rgba(0, 240, 255, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* --- NAVIGAZIONE RESPONSIVE --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background: var(--bg-secondary);
+  border-bottom: 2px solid var(--border-neon);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--cyan-neon);
+  text-shadow: 0 0 8px var(--cyan-neon);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* --- HUD ADMIN BUTTON IN-GAME --- */
+.admin-trigger-btn {
+  background: linear-gradient(135deg, #ff0055, #9900ff);
+  color: #fff;
+  border: 1px solid var(--pink-neon);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.admin-trigger-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 0, 127, 0.8);
+}
+
+/* --- CONTAINER DI GIOCO & FLEX GRID --- */
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  flex: 1;
+}
+
+.game-container {
+  position: relative;
+  background: #000;
+  border: 2px solid var(--border-neon);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
+}
+
+#gameCanvas {
+  width: 100%;
+  height: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  display: block;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-neon);
+  border-radius: 10px;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+/* --- OVERLAY ADMIN DENTRO IL GIOCO --- */
+.admin-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(5, 5, 12, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 99999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.admin-overlay.active {
+  display: flex;
+}
+
+.admin-modal {
+  background: var(--bg-secondary);
+  border: 2px solid var(--pink-neon);
+  box-shadow: 0 0 30px rgba(255, 0, 127, 0.4);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 700px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalSlide 0.25s ease-out;
+}
+
+@keyframes modalSlide {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.admin-modal-header {
+  padding: 1rem 1.2rem;
+  background: rgba(255, 0, 127, 0.15);
+  border-bottom: 1px solid var(--pink-neon);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-modal-header h3 {
+  color: var(--pink-neon);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.admin-modal-body {
+  padding: 1.2rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-grid-tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem;
+}
+
+.admin-btn {
+  background: #1e1e3f;
+  color: #fff;
+  border: 1px solid var(--border-neon);
+  padding: 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s, border-color 0.2s;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.admin-btn:hover {
+  background: var(--cyan-neon);
+  color: #000;
+  border-color: var(--cyan-neon);
+}
+
+.admin-console-log {
+  background: #05050a;
+  border: 1px solid #222244;
+  border-radius: 6px;
+  padding: 0.8rem;
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: var(--green-neon);
+  height: 120px;
+  overflow-y: auto;
+}
+
+/* --- MEDIA QUERIES PER TABLET E MOBILE --- */
+@media (max-width: 1024px) {
+  .main-wrapper {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  
+  .game-container {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0.6rem 0.8rem;
+  }
+  
+  .navbar .brand span {
+    display: none;
+  }
+  
+  .main-wrapper {
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+
+  .game-container {
+    min-height: 280px;
+    border-radius: 8px;
+  }
+  
+  .admin-modal {
+    max-height: 95vh;
+  }
+  
+  .admin-grid-tools {
+    grid-template-columns: 1fr;
+  }
+}

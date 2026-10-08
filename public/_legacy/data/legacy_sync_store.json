@@ -1,0 +1,839 @@
+{
+  "users": [
+    {
+      "id": "usr_founder",
+      "username": "Founder_Retro",
+      "role": "founder",
+      "password": "founder123",
+      "email": "founder@retroarcade.io",
+      "avatar": "👑",
+      "coins": 98949,
+      "gems": 5000,
+      "dust": 1200,
+      "xp": 50162,
+      "level": 42,
+      "prestige": 5,
+      "rank_title": "Overlord Galattico",
+      "streak": 31,
+      "clan": "FOUND",
+      "last_login": "2026-10-03T00:04:57.240Z",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "unlocked_items": [
+        "skin_neon_blue",
+        "skin_crimson",
+        "skin_gold",
+        "trail_matrix",
+        "trail_plasma",
+        "shield_overclock",
+        "zero_skin_dragon",
+        "zero_clan_badge",
+        "zero_skin_void"
+      ],
+      "equipped": {
+        "ship_skin": "skin_gold",
+        "cell_skin": "#ffd700",
+        "trail": "trail_plasma",
+        "sound_pack": "cyber_overdrive"
+      },
+      "stats": {
+        "games_played": 252,
+        "highscores": {
+          "space_defender": 95000,
+          "cyber_runner": 45000,
+          "neon_breaker": 65000,
+          "zero_agar": 85000
+        },
+        "total_kills": 3500,
+        "total_distance": 75000,
+        "bosses_defeated": 85
+      },
+      "achievements": [
+        "first_blood",
+        "coin_collector",
+        "speed_demon",
+        "boss_hunter",
+        "master_survivor",
+        "mass_titan"
+      ],
+      "best_streak": 31,
+      "last_visit_date": "2026-10-03",
+      "streak_claimed_today": false,
+      "referral_code": "ARCADE-FOUND-315",
+      "favorite_games": []
+    },
+    {
+      "id": "usr_admin",
+      "username": "Admin_Nexus",
+      "role": "admin",
+      "password": "admin123",
+      "email": "admin@retroarcade.io",
+      "avatar": "🛡️",
+      "coins": 50000,
+      "gems": 1000,
+      "dust": 500,
+      "xp": 25000,
+      "level": 30,
+      "prestige": 3,
+      "rank_title": "Maestro Quantistico",
+      "streak": 20,
+      "clan": "ADMIN",
+      "last_login": "2026-09-30T20:44:54.910Z",
+      "created_at": "2026-02-01T00:00:00.000Z",
+      "unlocked_items": [
+        "skin_neon_blue",
+        "skin_crimson",
+        "skin_gold",
+        "trail_matrix",
+        "trail_plasma"
+      ],
+      "equipped": {
+        "ship_skin": "skin_crimson",
+        "cell_skin": "#ff0055",
+        "trail": "trail_matrix",
+        "sound_pack": "retro_synth"
+      },
+      "stats": {
+        "games_played": 120,
+        "highscores": {
+          "space_defender": 58000,
+          "cyber_runner": 28000,
+          "neon_breaker": 38000,
+          "zero_agar": 42000
+        },
+        "total_kills": 1400,
+        "total_distance": 34000,
+        "bosses_defeated": 35
+      },
+      "achievements": [
+        "first_blood",
+        "coin_collector",
+        "speed_demon",
+        "boss_hunter",
+        "master_survivor"
+      ]
+    },
+    {
+      "id": "usr_moderator",
+      "username": "Mod_Guardian",
+      "role": "moderatore",
+      "password": "mod123",
+      "email": "mod@retroarcade.io",
+      "avatar": "⚖️",
+      "coins": 15000,
+      "gems": 300,
+      "dust": 250,
+      "xp": 12000,
+      "level": 20,
+      "prestige": 1,
+      "rank_title": "Cyber Commando",
+      "streak": 15,
+      "clan": "MODS",
+      "last_login": "2026-09-30T20:44:54.910Z",
+      "created_at": "2026-03-01T00:00:00.000Z",
+      "unlocked_items": [
+        "skin_neon_blue",
+        "skin_crimson",
+        "trail_matrix"
+      ],
+      "equipped": {
+        "ship_skin": "skin_neon_blue",
+        "cell_skin": "#00f0ff",
+        "trail": "trail_matrix",
+        "sound_pack": "retro_synth"
+      },
+      "stats": {
+        "games_played": 80,
+        "highscores": {
+          "space_defender": 34000,
+          "cyber_runner": 16000,
+          "neon_breaker": 22000,
+          "zero_agar": 25000
+        },
+        "total_kills": 750,
+        "total_distance": 18000,
+        "bosses_defeated": 18
+      },
+      "achievements": [
+        "first_blood",
+        "coin_collector",
+        "speed_demon"
+      ]
+    },
+    {
+      "id": "usr_helper",
+      "username": "Helper_Guide",
+      "role": "helper",
+      "password": "helper123",
+      "email": "helper@retroarcade.io",
+      "avatar": "💡",
+      "coins": 8000,
+      "gems": 150,
+      "dust": 100,
+      "xp": 6000,
+      "level": 15,
+      "prestige": 0,
+      "rank_title": "Cadetto Stellare",
+      "streak": 10,
+      "clan": "HELP",
+      "last_login": "2026-09-30T20:44:54.910Z",
+      "created_at": "2026-04-01T00:00:00.000Z",
+      "unlocked_items": [
+        "skin_neon_blue",
+        "trail_matrix"
+      ],
+      "equipped": {
+        "ship_skin": "skin_neon_blue",
+        "cell_skin": "#00f0ff",
+        "trail": "trail_matrix",
+        "sound_pack": "retro_synth"
+      },
+      "stats": {
+        "games_played": 45,
+        "highscores": {
+          "space_defender": 22000,
+          "cyber_runner": 9500,
+          "neon_breaker": 14000,
+          "zero_agar": 16000
+        },
+        "total_kills": 380,
+        "total_distance": 9800,
+        "bosses_defeated": 8
+      },
+      "achievements": [
+        "first_blood",
+        "coin_collector"
+      ]
+    },
+    {
+      "id": "usr_premium",
+      "username": "VIP_CyberStar",
+      "role": "premium",
+      "password": "vip123",
+      "email": "vip@retroarcade.io",
+      "avatar": "⭐",
+      "coins": 18000,
+      "gems": 500,
+      "dust": 400,
+      "xp": 15000,
+      "level": 22,
+      "prestige": 2,
+      "rank_title": "Cyber Commando VIP",
+      "streak": 25,
+      "clan": "ZERO",
+      "last_login": "2026-09-30T20:44:54.910Z",
+      "created_at": "2026-03-15T00:00:00.000Z",
+      "unlocked_items": [
+        "skin_neon_blue",
+        "skin_gold",
+        "trail_plasma",
+        "shield_overclock"
+      ],
+      "equipped": {
+        "ship_skin": "skin_gold",
+        "cell_skin": "#ffd700",
+        "trail": "trail_plasma",
+        "sound_pack": "cyber_overdrive"
+      },
+      "stats": {
+        "games_played": 95,
+        "highscores": {
+          "space_defender": 42000,
+          "cyber_runner": 18500,
+          "neon_breaker": 27000,
+          "zero_agar": 31000
+        },
+        "total_kills": 920,
+        "total_distance": 22000,
+        "bosses_defeated": 21
+      },
+      "achievements": [
+        "first_blood",
+        "coin_collector",
+        "speed_demon",
+        "boss_hunter"
+      ]
+    },
+    {
+      "id": "usr_demo",
+      "username": "RetroPlayer",
+      "role": "admin",
+      "password": "user123",
+      "email": "player@retroarcade.io",
+      "avatar": "👾",
+      "coins": 5555,
+      "gems": 35,
+      "dust": 120,
+      "xp": 3300,
+      "level": 9,
+      "prestige": 0,
+      "rank_title": "Novizio Arcade",
+      "streak": 4,
+      "clan": "ZERO",
+      "last_login": "2026-09-30T20:47:28.677Z",
+      "created_at": "2026-05-01T00:00:00.000Z",
+      "unlocked_items": [
+        "skin_neon_blue",
+        "trail_matrix",
+        "shield_overclock"
+      ],
+      "equipped": {
+        "ship_skin": "skin_neon_blue",
+        "cell_skin": "#00f0ff",
+        "trail": "trail_matrix",
+        "sound_pack": "retro_synth"
+      },
+      "stats": {
+        "games_played": 24,
+        "highscores": {
+          "space_defender": 12400,
+          "cyber_runner": 4820,
+          "neon_breaker": 6500,
+          "zero_agar": 8400
+        },
+        "total_kills": 165,
+        "total_distance": 3800,
+        "bosses_defeated": 3
+      },
+      "achievements": [
+        "first_blood",
+        "coin_collector"
+      ],
+      "is_banned": false,
+      "ban_reason": "Provvedimento disciplinare staff",
+      "is_muted": false
+    },
+    {
+      "id": "usr_1790801283641",
+      "username": "https://www.master-elettroerosioni.it/zeroagar.php?payload=eyJuYW1lIjoiUmV0cm9QbGF5ZXIiLCJjbGFuIjoiWkVSTyIsImNvaW5zIjo0ODQsImxldmVsIjo3LCJ4cCI6MjE1NH0=",
+      "avatar": "🔮",
+      "coins": 300,
+      "xp": 50,
+      "level": 1,
+      "streak": 1,
+      "last_login": "2026-09-30T20:48:03.641Z",
+      "unlocked_items": [
+        "skin_neon_blue"
+      ],
+      "equipped": {
+        "ship_skin": "skin_neon_blue",
+        "trail": "default",
+        "sound_pack": "retro_synth"
+      },
+      "stats": {
+        "games_played": 0,
+        "highscores": {
+          "space_defender": 0,
+          "cyber_runner": 0,
+          "neon_breaker": 0
+        },
+        "total_kills": 0,
+        "total_distance": 0,
+        "bosses_defeated": 0
+      },
+      "achievements": []
+    },
+    {
+      "id": "usr_1790801506344",
+      "username": "hhhhhhhh",
+      "role": "user",
+      "password": "https://www.master-elettroerosioni.it/zeroagar.php?payload=eyJuYW1lIjoiUmV0cm9QbGF5ZXIiLCJjbGFuIjoiWkVSTyIsImNvaW5zIjo0ODQsImxldmVsIjo3LCJ4cCI6MjE1NH0=",
+      "email": "adrianorizzi7@gmail.com",
+      "avatar": "👾",
+      "coins": 300,
+      "gems": 10,
+      "dust": 50,
+      "xp": 50,
+      "level": 1,
+      "streak": 1,
+      "clan": "ZERO",
+      "created_at": "2026-09-30T20:51:46.344Z",
+      "last_login": "2026-10-02T23:56:58.906Z",
+      "unlocked_items": [
+        "skin_neon_blue"
+      ],
+      "equipped": {
+        "ship_skin": "skin_neon_blue",
+        "cell_skin": "#00f0ff",
+        "trail": "default",
+        "sound_pack": "retro_synth"
+      },
+      "stats": {
+        "games_played": 0,
+        "highscores": {
+          "space_defender": 0,
+          "cyber_runner": 0,
+          "neon_breaker": 0,
+          "zero_agar": 0
+        },
+        "total_kills": 0,
+        "total_distance": 0,
+        "bosses_defeated": 0
+      },
+      "achievements": [],
+      "best_streak": 1,
+      "last_visit_date": "2026-10-02",
+      "streak_claimed_today": false
+    }
+  ],
+  "leaderboards": {
+    "space_defender": [
+      {
+        "username": "CyberKnight",
+        "score": 34800,
+        "date": "2026-09-29",
+        "avatar": "⚡"
+      },
+      {
+        "username": "PixelValkyrie",
+        "score": 26400,
+        "date": "2026-09-28",
+        "avatar": "🚀"
+      },
+      {
+        "username": "RetroPlayer",
+        "score": 12400,
+        "date": "2026-09-30",
+        "avatar": "👾"
+      },
+      {
+        "username": "VaporWave99",
+        "score": 9850,
+        "date": "2026-09-27",
+        "avatar": "🕹️"
+      }
+    ],
+    "cyber_runner": [
+      {
+        "username": "SpeedyFox",
+        "score": 14200,
+        "date": "2026-09-28",
+        "avatar": "🦊"
+      },
+      {
+        "username": "CyberKnight",
+        "score": 11200,
+        "date": "2026-09-29",
+        "avatar": "⚡"
+      },
+      {
+        "username": "RetroPlayer",
+        "score": 4820,
+        "date": "2026-09-30",
+        "avatar": "👾"
+      }
+    ],
+    "neon_breaker": [
+      {
+        "username": "CyberKnight",
+        "score": 18900,
+        "date": "2026-09-29",
+        "avatar": "⚡"
+      },
+      {
+        "username": "NeonGhost",
+        "score": 15400,
+        "date": "2026-09-25",
+        "avatar": "👻"
+      },
+      {
+        "username": "RetroPlayer",
+        "score": 6500,
+        "date": "2026-09-30",
+        "avatar": "👾"
+      }
+    ],
+    "zero_agar": [
+      {
+        "username": "ApexPredator",
+        "score": 38400,
+        "date": "2026-09-30",
+        "avatar": "👑"
+      },
+      {
+        "username": "master",
+        "score": 25000,
+        "date": "2026-09-30",
+        "avatar": "🦠"
+      },
+      {
+        "username": "CyberKnight",
+        "score": 18450,
+        "date": "2026-09-29",
+        "avatar": "⚡"
+      },
+      {
+        "username": "RetroPlayer",
+        "score": 9200,
+        "date": "2026-09-30",
+        "avatar": "👾"
+      }
+    ]
+  },
+  "shop_items": [
+    {
+      "id": "skin_neon_blue",
+      "type": "ship_skin",
+      "name": "Cobalt Pulse",
+      "price": 100,
+      "icon": "🔷",
+      "description": "Scocca cianotica con scarica di fotoni a frequenza quantistica."
+    },
+    {
+      "id": "skin_crimson",
+      "type": "ship_skin",
+      "name": "Crimson Fury",
+      "price": 300,
+      "icon": "🔴",
+      "description": "Armatura in lega di titanio rosso magma ad alta resistenza."
+    },
+    {
+      "id": "skin_gold",
+      "type": "ship_skin",
+      "name": "Cyber Gold",
+      "price": 750,
+      "icon": "👑",
+      "description": "Rivestimento aureo nanotecnologico per veri campioni d'arcade."
+    },
+    {
+      "id": "trail_matrix",
+      "type": "trail",
+      "name": "Matrix Rain",
+      "price": 150,
+      "icon": "❇️",
+      "description": "Scia a codici binari verdi luminescenti ad ogni manovra."
+    },
+    {
+      "id": "trail_plasma",
+      "type": "trail",
+      "name": "Hyper Plasma",
+      "price": 400,
+      "icon": "⚡",
+      "description": "Rilascio continuo di particelle ionizzate ad altissima energia."
+    },
+    {
+      "id": "shield_overclock",
+      "type": "powerup_boost",
+      "name": "Scudo Overclock +1",
+      "price": 250,
+      "icon": "🛡️",
+      "description": "Inizia ogni partita con uno scudo extra attivo fin dal primo secondo."
+    },
+    {
+      "id": "laser_burst",
+      "type": "powerup_boost",
+      "name": "Doppio Blaster Start",
+      "price": 350,
+      "icon": "🔫",
+      "description": "Inizia la battaglia nello spazio con cannone doppio abilitato."
+    },
+    {
+      "id": "zero_skin_neon",
+      "type": "ship_skin",
+      "name": "ZeroAgar: Cyber Matrix",
+      "price": 200,
+      "icon": "🦠",
+      "description": "Skin neon ciano luminescente per la tua cella in ZeroAgar Cyber Arena."
+    },
+    {
+      "id": "zero_skin_dragon",
+      "type": "ship_skin",
+      "name": "ZeroAgar: Crimson Dragon",
+      "price": 450,
+      "icon": "🐉",
+      "description": "Skin drago cremisi con contorno fluorescente da predatore d'arena."
+    },
+    {
+      "id": "zero_skin_void",
+      "type": "ship_skin",
+      "name": "ZeroAgar: Quantum Void",
+      "price": 600,
+      "icon": "🌌",
+      "description": "Buco nero quantistico che pulsa ad ogni cella divorata."
+    },
+    {
+      "id": "zero_clan_badge",
+      "type": "powerup_boost",
+      "name": "Badge Clan VIP [APEX]",
+      "price": 500,
+      "icon": "👑",
+      "description": "Abilita il prefisso clan dorato VIP e ottieni il +15% di ZeroCoins."
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_blood",
+      "title": "Primo Impatto",
+      "description": "Distruggi la tua prima minaccia nemica nello spazio o nei giochi arcade.",
+      "reward_coins": 50,
+      "reward_xp": 100,
+      "icon": "🎯"
+    },
+    {
+      "id": "zero_apex_predator",
+      "title": "Apex Predator",
+      "description": "Divora almeno 5 bot o rivali in una singola sessione di ZeroAgar.",
+      "reward_coins": 200,
+      "reward_xp": 500,
+      "icon": "🦠"
+    },
+    {
+      "id": "zero_titan_arena",
+      "title": "Titano dell'Arena",
+      "description": "Raggiungi oltre 1.500 di Massa in ZeroAgar Cyber Arena.",
+      "reward_coins": 350,
+      "reward_xp": 800,
+      "icon": "⚡"
+    },
+    {
+      "id": "zero_split_master",
+      "title": "Maestro dello Split",
+      "description": "Esegui una divisione quadrupla in ZeroAgar senza farti divorare.",
+      "reward_coins": 150,
+      "reward_xp": 300,
+      "icon": "🧬"
+    },
+    {
+      "id": "coin_collector",
+      "title": "Cacciatore di Monete",
+      "description": "Raccogli un totale di oltre 200 monete durante le tue partite.",
+      "reward_coins": 100,
+      "reward_xp": 250,
+      "icon": "🪙"
+    },
+    {
+      "id": "boss_hunter",
+      "title": "Sterminatore di Boss",
+      "description": "Abbatti un boss galattico di fine livello.",
+      "reward_coins": 250,
+      "reward_xp": 600,
+      "icon": "👾"
+    },
+    {
+      "id": "speed_demon",
+      "title": "Demone della Velocità",
+      "description": "Raggiungi una combo 10x senza subire danni in Cyber Runner.",
+      "reward_coins": 150,
+      "reward_xp": 350,
+      "icon": "⚡"
+    },
+    {
+      "id": "master_survivor",
+      "title": "Sopravvissuto Leggendario",
+      "description": "Supera i 20.000 punti in una singola sessione arcade.",
+      "reward_coins": 500,
+      "reward_xp": 1000,
+      "icon": "🏆"
+    },
+    {
+      "id": "shopaholic",
+      "title": "Mercante Stellare",
+      "description": "Acquista almeno 2 oggetti o personalizzazioni dal negozio.",
+      "reward_coins": 120,
+      "reward_xp": 300,
+      "icon": "🛒"
+    },
+    {
+      "id": "streak_3_days",
+      "title": "Serie di Fuoco",
+      "description": "Visita l'arcade per 3 giorni consecutivi.",
+      "reward_coins": 300,
+      "reward_xp": 400,
+      "icon": "🔥"
+    },
+    {
+      "id": "streak_7_days",
+      "title": "Devozione Arcade",
+      "description": "Mantieni una serie ininterrotta di 7 giorni consecutivi nell'arcade.",
+      "reward_coins": 1000,
+      "reward_xp": 1200,
+      "icon": "👑"
+    }
+  ],
+  "daily_challenges": [
+    {
+      "id": "dc_1",
+      "title": "Sterminio Droni",
+      "task": "Elimina 20 droni alieni in Space Defender",
+      "progress": 14,
+      "target": 20,
+      "reward_coins": 80,
+      "completed": false
+    },
+    {
+      "id": "dc_2",
+      "title": "Corsa Iperuranica",
+      "task": "Corri per oltre 1500 metri in Cyber Runner",
+      "progress": 1500,
+      "target": 1500,
+      "reward_coins": 100,
+      "completed": true
+    },
+    {
+      "id": "dc_3",
+      "title": "Combo Distruttrice",
+      "task": "Distruggi 30 blocchi senza perdere la palla in Neon Breaker",
+      "progress": 22,
+      "target": 30,
+      "reward_coins": 120,
+      "completed": false
+    }
+  ],
+  "chat_messages": [
+    {
+      "id": "msg_sys_1",
+      "username": "Arcade Bot",
+      "avatar": "🤖",
+      "text": "Benvenuti nella chat globale Retro Arcade! Condividi i tuoi punteggi e chatta in tempo reale!",
+      "type": "system",
+      "timestamp": "2026-09-30T20:28:29.335Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790800109335_7p8kx",
+      "username": "RetroPlayer",
+      "avatar": "👾",
+      "text": "Prova messaggio live!",
+      "type": "message",
+      "timestamp": "2026-09-30T20:28:29.335Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790800118726_0v2lq",
+      "username": "TesterWS",
+      "avatar": "⚡",
+      "text": "WebSocket Test Passed",
+      "type": "message",
+      "timestamp": "2026-09-30T20:28:38.726Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790800219502_9rvha",
+      "username": "RetroPlayer",
+      "avatar": "👾",
+      "text": "Pazzesco!",
+      "type": "message",
+      "timestamp": "2026-09-30T20:30:19.502Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790800221572_36sgq",
+      "username": "RetroPlayer",
+      "avatar": "👾",
+      "text": "Ha condiviso il suo record personale in Space Defender: 12.400 pt!",
+      "type": "score_share",
+      "timestamp": "2026-09-30T20:30:21.572Z",
+      "score_data": {
+        "game_name": "Space Defender",
+        "score": 12400
+      }
+    },
+    {
+      "id": "msg_1790800270347_y6vmd",
+      "username": "RetroPlayer",
+      "avatar": "👾",
+      "text": "🚀 GG! 👾 Record battuto 👑",
+      "type": "message",
+      "timestamp": "2026-09-30T20:31:10.347Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790801312296_mmco7",
+      "username": "https://www.master-elettroerosioni.it/zeroagar.php?payload=eyJuYW1lIjoiUmV0cm9QbGF5ZXIiLCJjbGFuIjoiWkVSTyIsImNvaW5zIjo0ODQsImxldmVsIjo3LCJ4cCI6MjE1NH0=",
+      "avatar": "🔮",
+      "text": "⚡",
+      "type": "message",
+      "timestamp": "2026-09-30T20:48:32.296Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790801314159_abrp9",
+      "username": "https://www.master-elettroerosioni.it/zeroagar.php?payload=eyJuYW1lIjoiUmV0cm9QbGF5ZXIiLCJjbGFuIjoiWkVSTyIsImNvaW5zIjo0ODQsImxldmVsIjo3LCJ4cCI6MjE1NH0=",
+      "avatar": "🔮",
+      "text": "Ha condiviso il suo record personale in Space Defender: 0 pt!",
+      "type": "score_share",
+      "timestamp": "2026-09-30T20:48:34.159Z",
+      "score_data": {
+        "game_name": "Space Defender",
+        "score": 0
+      }
+    },
+    {
+      "id": "msg_1790985294944_tk2jo",
+      "username": "Founder_Retro",
+      "avatar": "👑",
+      "text": "Pazzesco! Pazzesco! GG!",
+      "type": "message",
+      "timestamp": "2026-10-02T23:54:54.944Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790985297247_xgldm",
+      "username": "Founder_Retro",
+      "avatar": "👑",
+      "text": "Ha condiviso il suo record personale in Space Defender: 95.000 pt!",
+      "type": "score_share",
+      "timestamp": "2026-10-02T23:54:57.248Z",
+      "score_data": {
+        "game_name": "Space Defender",
+        "score": 95000
+      }
+    },
+    {
+      "id": "msg_sys_1790985383996",
+      "username": "📢 [FOUNDER] Founder_Retro",
+      "avatar": "🛡️",
+      "text": "xfddfs",
+      "type": "system",
+      "timestamp": "2026-10-02T23:56:23.996Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790985787984_p6n56",
+      "username": "Founder_Retro",
+      "avatar": "👑",
+      "text": "Ha raggiunto una Massa di Picco di 30 M in ZeroAgar Cyber Arena!",
+      "type": "score_share",
+      "timestamp": "2026-10-03T00:03:07.984Z",
+      "score_data": {
+        "game_name": "ZeroAgar",
+        "score": 300
+      }
+    },
+    {
+      "id": "msg_sys_1790985873512",
+      "username": "📢 [FOUNDER] Founder_Retro",
+      "avatar": "🛡️",
+      "text": "Non vedo il menù in alto coi bottoni. Aggiorna anche la versione che scarico dello zip, rendilo responsive e crea una nuova grafica professionale non",
+      "type": "system",
+      "timestamp": "2026-10-03T00:04:33.512Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_sys_1790986219999",
+      "username": "📢 [FOUNDER] Founder_Retro",
+      "avatar": "🛡️",
+      "text": "rere",
+      "type": "system",
+      "timestamp": "2026-10-03T00:10:19.999Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_1790986232946_9ytgy",
+      "username": "Founder_Retro",
+      "avatar": "👑",
+      "text": "Pazzesco!",
+      "type": "message",
+      "timestamp": "2026-10-03T00:10:32.946Z",
+      "score_data": null
+    },
+    {
+      "id": "msg_sys_1790986238752",
+      "username": "📢 [FOUNDER] Founder_Retro",
+      "avatar": "🛡️",
+      "text": "erwrewrwe",
+      "type": "system",
+      "timestamp": "2026-10-03T00:10:38.752Z",
+      "score_data": null
+    }
+  ]
+}

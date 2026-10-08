@@ -1,0 +1,50 @@
+<!--
+  facebook-login-snippet.html
+
+  Incolla questo blocco nella pagina dove vuoi mostrare il pulsante
+  "Accedi con Facebook" (es. login.php). Sostituisci IL_TUO_APP_ID
+  con il tuo vero App ID (quello si può mettere nel client, non è
+  segreto — il segreto resta solo in fb_config.php sul server).
+-->
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: 'IL_TUO_APP_ID',
+      cookie: true,
+      xfbml: true,
+      version: 'v21.0'
+    });
+  };
+</script>
+<script async defer src="https://connect.facebook.net/it_IT/sdk.js"></script>
+
+<button onclick="loginFacebook()" type="button">Accedi con Facebook</button>
+
+<script>
+function loginFacebook() {
+  FB.login(function(response) {
+    if (response.authResponse) {
+      const accessToken = response.authResponse.accessToken;
+
+      fetch('/auth/facebook.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ accessToken })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          window.location.href = '/dashboard.php'; // adatta alla tua pagina post-login
+        } else {
+          alert('Accesso fallito: ' + (data.error || 'errore sconosciuto'));
+        }
+      })
+      .catch(() => alert('Errore di rete, riprova.'));
+    } else {
+      console.log('Login annullato dall\'utente');
+    }
+  }, { scope: 'public_profile,email' });
+}
+</script>
