@@ -1,0 +1,25 @@
+ZeroSocial / Facebook-style community suite - 2026-10-05
+
+The social area is now server-backed with MySQL and uses the ZeroArcade PHP session.
+
+Included core functions:
+- Feed: create, visibility, reactions (like/love/care/laugh/wow/sad/angry), comments, shares, save, delete, report
+- Stories: 24-hour stories and view tracking
+- Reels: Reel post type with optional video URL
+- Friends: search, request, accept/decline/remove foundation
+- Following: users, groups and pages
+- Messenger: direct messages and read state
+- Groups: create, join/leave
+- Pages: create and follow
+- Events: create and RSVP
+- Marketplace: listings
+- Notifications: server-backed notifications and read state
+- Search: users, groups, pages and events
+- Memories: user post archive view
+- Profile: avatar and bio editing
+- Privacy: public/friends/only-me post visibility
+- Safety: block and report foundations
+
+This is an original ZeroArcade implementation inspired by common Facebook-style social features. It does not log into Facebook, call Meta APIs, scrape Facebook, or copy Facebook source code.
+
+A true full live-video/broadcast stack still requires a WebRTC/streaming infrastructure; the current suite handles the social/live-content layer without pretending that a static page is a real video broadcast service.

@@ -1,0 +1,48 @@
+ZEROARCADE - AGGIORNAMENTO CLASSIC + ADMIN
+Data: 2026-10-05
+
+1) games/zeroagar_classic.php
+- Riscrittura del motore Classic in stile Agar: FFA, Teams, Experimental, Party.
+- Movimento mouse/touch, split SPACE, espulsione massa W.
+- Mangia cibo, massa espulsa e avversari più piccoli.
+- Collisioni e merge delle cellule, multi-cell split fino a 16 pezzi.
+- Virus con esplosione/split delle cellule grandi.
+- Bot AI, squadre e colori di squadra.
+- Zoom rotellina, minimappa, leaderboard server, spectate e respawn.
+- Salvataggio MySQL di record, partite, tempo, kill e particelle.
+- Usa la sessione ZeroArcade esistente: nessun secondo login nel gioco.
+
+2) api/api.php
+- Aggiunta action game_leaderboard.
+- Salvataggio di kill e particelle oltre a record/partite/tempo.
+
+3) admin.php
+- Pannello amministrazione completo per staff.
+- Dashboard utenti/online/bannati/staff/punteggi/progressi/stanza/chat.
+- Gestione utenti: crea, ban/sblocco, ruolo, economia, XP/livello/clan, reset password, reset progressi, eliminazione.
+- Gestione classifiche e punteggi.
+- Gestione progressi per gioco.
+- Gestione stanze.
+- Moderazione chat.
+- Impostazioni globali: manutenzione, registrazioni, blocco giochi, annuncio.
+- Audit log e pulizia audit.
+
+4) api/admin.php
+- Backend protetto dal grado staff.
+- Gli utenti non possono assegnarsi da soli ruoli.
+- Nessuna azione consente di modificare utenti di grado pari o superiore.
+- Nuove tabelle za_settings e za_game_flags create automaticamente se mancanti.
+
+5) portal/index.php
+- Il pannello STAFF contiene ora il link al pannello amministrazione completo.
+- Il comando /role non assegna più ruoli all'utente: i ruoli sono assegnati esclusivamente da sistema/staff.
+- Corretto doppio let html nel pannello account.
+
+Nota: il gioco è un'implementazione originale delle meccaniche classiche di un gioco a cellule; non incorpora codice proprietario o asset proprietari di agar.io.
+
+2026-10-05 — MULTIPLAYER LIVE ARENA
+- ZeroAgar Classic ora usa una stessa arena globale per tutti gli utenti autenticati.
+- Nuovo endpoint: api/arena_live.php
+- Stato giocatori e celle condiviso via MySQL con polling rapido.
+- Chat dedicata alla stessa arena, sincronizzata tra tutti i giocatori.
+- Presenza online, join/update/sync/leave e pulizia automatica dei giocatori inattivi.

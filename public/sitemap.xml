@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://zerothelegend.com/</loc>
+	<lastmod>2026-10-06T17:37:13+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://zerothelegend.com/portal/index.php</loc>
+	<lastmod>2026-10-06T17:37:13+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+</urlset>

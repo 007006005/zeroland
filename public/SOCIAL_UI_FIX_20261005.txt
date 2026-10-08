@@ -1,0 +1,2 @@
+ZeroSocial UI fix: added complete styling for fb-suite navigation, panels, forms, cards, reactions, Messenger, notifications, saved content and responsive layout.
+The functional PHP/JS/API logic was not removed; this patch only fixes the unstyled/squared presentation.
